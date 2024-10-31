@@ -29,13 +29,10 @@ public class Tugas1 {
             }
         }
         double rataRata = (double) totalNilai / jumlahMahasiswa;
-
         System.out.println("Daftar nilai mahasiswa:");
         for (int i = 0; i < jumlahMahasiswa; i++) {
             System.out.println("Nilai mahasiswa ke-" + (i + 1) + ": " + nilaiMahasiswa[i]);
         }
-
-
         System.out.println("Nilai tertinggi mahasiswa adalah: " + nilaiTertinggi);
         System.out.println("Nilai terendah mahasiswa adalah: " + nilaiTerendah);
         System.out.println("Rata-rata nilai mahasiswa adalah: " + rataRata);
